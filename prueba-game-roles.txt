@@ -1,0 +1,51 @@
+PS C:\Users\thenowrockHD\Desktop\proyectosrust\game-roles> cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.03s
+     Running `target\debug\game-roles.exe`
+Vida player: 100
+Al fin puedes ver algo en la oscuridad. La cueva tiene el techo bajo y es bastante húmeda. Tras avanzar un poco acabas llegando a una bifurcación
+[0],Ir por la izquierda (se ve una leve luz)
+[1],Ir por la derecha (el camino está totalmente oscuro)
+1
+
+Vida player: 100
+Te adentras por el oscuro tunel de la derecha. El camino sube y al final acabas llegando a un agujero donde se ve algo de luz. Al asomarte descubres que hay muchos goblins sentados alrededor de una hoguera.
+[0],Sería peligroso hacer nada, es mejor que lo dejes estar y continues por el tunel.
+[1],A lo mejor puedes acabar con los goblins si tienes algo de utilidad en la mochila.
+0
+
+Vida player: 100
+Sigues avanzando en la oscuridad. Antes de darte cuenta, ¡un pequeño goblin aparece por sorpresa!
+[0],El goblin no parece muy grande, atácale con un puñetazo directo
+[1],Intenta placar al goblin para derribarle y acabar con el en el suelo
+[2],Ves una piedra bastante grande delante. Cógela y lanzala al goblin para hacerle bastante daño
+0
+
+Vida player: 100
+Le das un puñetazo directo al goblin en la cara pero inesperadamente, es más resistente de lo que parece. Logra morderte y hacerte daño (Supervivencia - 50)
+[0],Intenta placar al goblin para derribarle y acabar con el en el suelo
+[1],Ves una piedra bastante grande delante. Cógela y lanzala al goblin para hacerle bastante daño
+1
+
+Vida player: 50
+Coges una piedra del suelo y se la lanzas al goblin directamente. Le alcanzas en la cabeza y acabas con el al instante. ¡Bien hecho!
+[0],Examinar el cadaver para ver si tiene algo útil
+0
+
+Vida player: 50
+El goblin llevaba un pequeño zurrón con cosas que ha robado recientemente. Logras hacerte con una poción curativa y algunos trapos que se pueden usar a modo de vendajes (Supervivencia +20)
+[0],Recoger todo y continuar hacia las profundidades
+0
+
+Vida player: 70
+DatesHistory { 
+    tipo: "SITUACION", 
+    tag: "DERECHA", 
+    texto: "Te adentras por el oscuro tunel de la derecha. El camino sube y al final acabas llegando a un agujero donde se ve algo de luz. Al asomarte descubres que hay muchos goblins sentados alrededor de una hoguera.", vida: 0, options: [DatesHistory { tipo: "OPCION", tag: "PASAR", texto: "Sería peligroso hacer nada, es mejor que lo dejes estar y continues por el tunel.", 
+    vida: 0, 
+    options: [] }, 
+    DatesHistory {
+         tipo: "OPCION", 
+         tag: "EXAMINAR",
+          texto: "A lo mejor puedes acabar con los goblins si tienes algo de utilidad en la mochila.", 
+          vida: 0, 
+          options: [] }] }
